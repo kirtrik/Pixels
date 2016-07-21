@@ -33,11 +33,13 @@ namespace PixelsConsole
         }
         public static Pixel operator +(Pixel px1, Pixel px2)
         {
-            int red, green, blue;
-            red = (px1.red + px2.red) > 255 ? 255 : px1.red + px2.red;
-            green = (px1.green + px2.green) > 255 ? 255 : px1.green + px2.green;
-            blue = (px1.blue + px2.blue) > 255 ? 255 : px1.blue + px2.blue;
-            return new Pixel(red, green, blue);
+            int sumr = px1.red + px2.red;
+            int sumg = px1.green + px2.green;
+            int sumb = px1.blue + px2.blue;
+            sumr = sumr - (sumr / 256) * (sumr - 255);
+            sumg = sumg - (sumg / 256) * (sumg - 255);
+            sumb = sumb - (sumb / 256) * (sumb - 255);
+            return new Pixel(sumr, sumg, sumb);
         }
     }
 }
