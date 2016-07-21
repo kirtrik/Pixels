@@ -1,0 +1,6 @@
+c:\users\win 8\documents\visual studio 2012\Projects\PixelsConsole\PixelsConsole\bin\Debug\PixelsConsole.exe.config
+c:\users\win 8\documents\visual studio 2012\Projects\PixelsConsole\PixelsConsole\obj\Debug\PixelsConsole.csprojResolveAssemblyReference.cache
+c:\users\win 8\documents\visual studio 2012\Projects\PixelsConsole\PixelsConsole\bin\Debug\PixelsConsole.exe
+c:\users\win 8\documents\visual studio 2012\Projects\PixelsConsole\PixelsConsole\bin\Debug\PixelsConsole.pdb
+c:\users\win 8\documents\visual studio 2012\Projects\PixelsConsole\PixelsConsole\obj\Debug\PixelsConsole.exe
+c:\users\win 8\documents\visual studio 2012\Projects\PixelsConsole\PixelsConsole\obj\Debug\PixelsConsole.pdb
